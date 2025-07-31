@@ -48,29 +48,6 @@ This project implements an intelligent, adaptive, and cluster-based multi-charge
 - Sensors close to depletion trigger emergency re-routing
 - Nearest available charger is dispatched with minimal disruption
 
-## Usage
-
-1. **Clone the repository:**
- ```
- git clone https://github.com/yourusername/wrsn-clustering-charging.git
- cd wrsn-clustering-charging
- ```
-
-2. **Configure the simulation parameters:**  
-Edit `config.py` or use command-line options to set:
-- Number of sensors/chargers
-- Sensor energy profile and consumption rates
-- Charger capacity, efficiency, etc.
-
-3. **Run the main simulation:**
- ```
- python simulation.py --nodes 150 --chargers 4
- ```
-
-4. **Visualize results:**  
-- Placement accuracy (hotspot/non-hotspot/overall)
-- Sensor uptime and dead-period prevention
-- Example graphs and accuracy tables included
 
 ## Sample Results
 
